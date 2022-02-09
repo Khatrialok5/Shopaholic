@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-top: 0;
+}
+/* banner */
+    
+.banner{
+    height:90vh;
+}
+
+.carousel-item img, .carousel-item video{
+    height:90vh;
+    overflow:auto;
+    object-fit: cover;
+
+}
+
+.carousel-control-prev-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fcc831' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+    opacity: unset;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fcc831' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+    opacity: unset;
+}
+.carousel .carousel-indicators button{
+    background-color: #fcc831;
+    opacity: unset;
+}
+.carousel .carousel-indicators button.active{
+    background-color: #7561f5;
+    opacity: unset;
+}
+.carousel-control-prev-icon:hover{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%237561f5' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+
+}
+.carousel-control-next-icon:hover{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%237561f5' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+
+}
+
+/* card */
+
+.card img {
+    align-items: center;
+    max-height: 50vh;
+    max-width: 100%;
+}
+
+.card img:hover {
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px #7561f5;
+    transform: scale(1.1);
+}
+
+#product-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    flex-basis: 100%;
+}
+.card-body >h6{
+    color:#fcc831 !important;
+}
+
+.order-list{
+    height:100vh; 
+    background-color: #fcc831;
+}
