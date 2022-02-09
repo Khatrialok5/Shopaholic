@@ -7,6 +7,12 @@
 .navbar{
     margin-top: 0;
 }
+.nav-link{
+    color:#fcc831 !important;
+}
+.nav-link:hover{
+    color:#7561f5 !important;
+}
 /* banner */
     
 .banner{
